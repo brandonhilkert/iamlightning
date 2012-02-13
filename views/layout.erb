@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I Am Lightning</title>
+    <meta property="description" content="I am Lightning is an all new energetic 4 piece rock band hailing from the northern Delaware region. Featuring past members of The Solitary System, Joshua Fit For Battle, Round Robin, Welcome the Plague Year, Rarae Avis & Game Over! Their refreshing sound is equipped with catchy melodies, blasting choruses and layered harmonies that your ears will most appreciate">
+
+    <link href="/style.css" media="screen" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript">
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=310565818962072";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+  </head>
+  <body>
+    <div class="hide">
+      <img alt="Logo" src="/images/logo.jpg">
+    </div>
+    <div id="fb-root"></div>
+    <div id="header">
+      <ul>
+        <li>
+          <a href="http://www.facebook.com/iamlightningmusic" target="blank">
+            <img alt="Ial-buttons_03" height="44" onmouseout="this.src='/images/IAL-buttons_03.jpg'" onmouseover="this.src='/images/IAL-buttons_03_over.jpg'" src="/images/IAL-buttons_03.jpg" width="45">
+          </a>
+        </li>
+        <li>
+          <a href="http://iamlightning.blogspot.com" target="blank">
+            <img alt="Ial-buttons_04" height="44" onmouseout="this.src='/images/IAL-buttons_04.jpg'" onmouseover="this.src='/images/IAL-buttons_04_over.jpg'" src="/images/IAL-buttons_04.jpg" width="44">
+          </a>
+        </li>
+        <li>
+          <a href="http://www.youtube.com/iamlightningmusic" target="blank">
+            <img alt="Ial-buttons_05" height="44" onmouseout="this.src='/images/IAL-buttons_05.jpg'" onmouseover="this.src='/images/IAL-buttons_05_over.jpg'" src="/images/IAL-buttons_05.jpg" width="82">
+          </a>
+        </li>
+        <li>
+          <a href="http://itunes.apple.com/us/artist/i-am-lightning/id497858713" target="blank">
+            <img alt="Ial-buttons_06" height="44" onmouseout="this.src='/images/IAL-buttons_06.jpg'" onmouseover="this.src='/images/IAL-buttons_06_over.jpg'" src="/images/IAL-buttons_06.jpg" width="95">
+          </a>
+        </li>
+        <li>
+          <a href="http://iamlightning.bigcartel.com" target="blank">
+            <img alt="Ial-buttons_07" height="44" onmouseout="this.src='/images/IAL-buttons_07.jpg'" onmouseover="this.src='/images/IAL-buttons_07_over.jpg'" src="/images/IAL-buttons_07.jpg" width="64">
+          </a>
+        </li>
+        <li>
+          <a href="mailto:jdrmanagement@yahoo.com">
+            <img alt="Ial-buttons_08" height="44" onmouseout="this.src='/images/IAL-buttons_08.jpg'" onmouseover="this.src='/images/IAL-buttons_08_over.jpg'" src="/images/IAL-buttons_08.jpg" width="83">
+          </a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+      <div id="fbLikeBox">
+        <div class="fb-like-box" data-header="" data-href="http://www.facebook.com/iamlightningmusic" data-show-faces="" data-stream="" data-width="300"></div>
+      </div>
+    </div>
+    <div id="content">
+      <%= yield %>
+    </div>
+  </body>
+</html>
