@@ -25,12 +25,6 @@ body {
   background-color: white;
 }
 
-#header #warpedTour {
-  position: absolute;
-  top: 420px;
-  left: 800px;
-}
-
 #content {
   padding: 280px 0px 0px 35px;
   min-height: 470px;
