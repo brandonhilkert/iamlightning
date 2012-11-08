@@ -72,6 +72,10 @@ ul li {
   background: url('images/bgbox.png');
 }
 
+.box.blog {
+  overflow: scroll;
+}
+
 .box .title {
   font-size: 16px;
   font-weight: bold;
